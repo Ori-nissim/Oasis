@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent" >
+
+  <com.google.android.material.appbar.MaterialToolbar
+      android:id="@+id/toolbar_main"
+      android:layout_width="match_parent"
+      app:menu="@menu/menu"
+      android:layout_height="wrap_content" />
+
+  <com.google.android.material.button.MaterialButton
+      android:id="@+id/addLocation_BTN_main"
+      android:layout_width="130dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginEnd="6dp"
+      android:layout_marginBottom="5dp"
+      android:backgroundTint="@color/lightGray"
+      android:text="Add location"
+      android:textAllCaps="false"
+      android:textColor="@color/black"
+      android:textSize="10dp"
+      app:icon="@drawable/plus107"
+      app:iconSize="20dp"
+      app:iconTint="@color/black" />
+
+  <com.google.android.material.button.MaterialButton
+      android:id="@+id/Map_BTN_main"
+      android:layout_width="130dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginEnd="143dp"
+      android:layout_marginBottom="4dp"
+      android:backgroundTint="@color/lightGray"
+      android:text="Map"
+      android:textAllCaps="false"
+      android:textColor="@color/black"
+      app:icon="@drawable/map_icon"
+      app:iconSize="24dp"
+      app:iconTint="@color/black" />
+
+  <com.google.android.material.button.MaterialButton
+      android:id="@+id/home_BTN_main"
+      android:layout_width="130dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginEnd="278dp"
+      android:layout_marginBottom="4dp"
+      android:backgroundTint="@color/lightGray"
+      android:text="Home"
+      android:textAllCaps="false"
+      android:textColor="@color/black"
+      app:icon="@drawable/home502"
+      app:iconSize="18dp"
+      app:iconTint="@color/black" />
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp">
+
+    </FrameLayout>
+</RelativeLayout>
