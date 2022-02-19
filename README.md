@@ -26,5 +26,6 @@ Guest example:
 
 https://user-images.githubusercontent.com/93268216/154697681-fb744bcd-5ec6-4e53-955e-b91fd3ee86bd.mp4
 
-
+### Known issues
+uploading a new location doesnt work, will be taken care of :)
 
