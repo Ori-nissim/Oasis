@@ -9,7 +9,7 @@ Everybody who sign in with a google account can upload any location he like for 
 * An end to boring saturdays and days off :)
 
 ## Features & External Libraries
-* Google Maps navigation
+* Google Maps navigation & API
 * Firebase Authentication
 * Firebase Realtime Database
 * Glide
