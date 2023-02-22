@@ -4,7 +4,7 @@ Oasis lets you have all the  fun and beautiful location near you at the palm of 
 Everybody who sign in with a google account can upload any location he like for other to see and enjoy as well, guests CANNOT upload new location.
 
 ## What's in it for you ?
-* Easy to use app that can take you on your way to your new andventure in a matter of seconds
+* Easy-to-use application that can take you on your way to your new adventure in a matter of seconds
 * A growing community of location you MIGHT NOT find anywehre else
 * An end to boring saturdays and days off :)
 
